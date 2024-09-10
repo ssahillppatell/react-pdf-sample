@@ -46,7 +46,7 @@ export default function PdfViewer({ url }: PdfViewerProps) {
         </div>
       </div>
 
-      <div style={{ width: '100%', border: '1px solid black' }}>
+      <div style={{ display: 'inline-block', border: '1px solid black' }}>
         <Document
           options={options}
           onLoadSuccess={onDocumentLoadSuccess}
